@@ -38,6 +38,11 @@
                 android:targetClass="com.android.systemui.tuner.NavBarActivity" />
         </Preference>
 
+        <com.derpquest.settings.preferences.SecureSettingSwitchPreference
+            android:key="sysui_nav_bar_inverse"
+            android:title="@string/navbar_invert_layout_title"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

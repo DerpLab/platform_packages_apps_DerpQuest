@@ -62,6 +62,7 @@
     <string name="enable_navbar_summary">Controls whether the navigation bar is displayed</string>
     <string name="nav_bar_tuner_title">Navigation bar tuner</string>
     <string name="nav_bar_tuner_summary">Reorder and change navbar buttons</string>
+    <string name="navbar_invert_layout_title">Invert layout</string>
 
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
