@@ -30,6 +30,7 @@
     <string name="recents_title">Recents apps</string>
     <string name="statusbar_title">Status bar</string>
     <string name="volume_title">Volume Settings</string>
+    <string name="theming_title">Theming</string>
     <string name="animations_title">Animations</string>
 
     <!-- General strings -->
@@ -697,5 +698,8 @@
     <!-- Show statusbar on lockscreen -->
     <string name="lockscreen_show_status_bar_title">Statusbar</string>
     <string name="lockscreen_show_status_bar_summary">Show statusbar on the lockscreen</string>
+
+    <!-- Themes -->
+    <string name="theme_select_title">Themes</string>
 
 </resources>
