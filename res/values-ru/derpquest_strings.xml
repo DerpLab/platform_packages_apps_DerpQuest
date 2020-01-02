@@ -357,7 +357,6 @@
     <string name="qs_show_secure_title">Заголовок безопасности</string>
     <string name="qs_show_secure_summary">Показать условия безопасности</string>
 
-     
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Стиль батареи</string>
     <string name="status_bar_battery_style_q">Вид иконки (стандарт)</string>

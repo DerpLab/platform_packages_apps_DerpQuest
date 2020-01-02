@@ -29,6 +29,8 @@ import com.derpquest.settings.Utils;
 
 import com.derpquest.settings.preferences.CustomSeekBarPreference;
 import com.derpquest.settings.preferences.SystemSettingSeekBarPreference;
+import com.derpquest.settings.preferences.SystemSettingSwitchPreference;
+
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 import java.util.ArrayList;
@@ -86,8 +88,9 @@ public class NotificationsSettings extends SettingsPreferenceFragment implements
         mEdgeLightColorPreference.setOnPreferenceChangeListener(this);
         int edgeLightColor = Settings.System.getInt(getContentResolver(),
                 Settings.System.PULSE_AMBIENT_LIGHT_COLOR, 0xFF3980FF);
-        String edgeLightColorHex = String.format("#%08x", (0xFF3980FF & edgeLightColor));
-        if (edgeLightColorHex.equals("#ff3980ff")) {
+
+        String edgeLightColorHex = ColorPickerPreference.convertToRGB(edgeLightColor);
+        if (edgeLightColorHex.equals("#3980ff")) {
             mEdgeLightColorPreference.setSummary(R.string.default_string);
         } else {
             mEdgeLightColorPreference.setSummary(edgeLightColorHex);
@@ -99,6 +102,18 @@ public class NotificationsSettings extends SettingsPreferenceFragment implements
         int duration = Settings.System.getInt(getContentResolver(),
                 Settings.System.PULSE_AMBIENT_LIGHT_DURATION, 2);
         mEdgeLightDurationPreference.setValue(duration);
+
+        if (!getResources().getBoolean(
+                        com.android.internal.R.bool.config_supportAmbientWakeGestures)) {
+            PreferenceCategory mEdgeCat = (PreferenceCategory) findPreference("notification_screen");
+            SystemSettingSwitchPreference mEdgeAutoLightPreference = (SystemSettingSwitchPreference) findPreference("pulse_ambient_light");
+            SystemSettingSwitchPreference mEdgeAutoColorPreference = (SystemSettingSwitchPreference) findPreference("pulse_ambient_auto_color");
+            prefScreen.removePreference(mEdgeAutoLightPreference);
+            prefScreen.removePreference(mEdgeLightDurationPreference);
+            prefScreen.removePreference(mEdgeAutoColorPreference);
+            prefScreen.removePreference(mEdgeLightColorPreference);
+            prefScreen.removePreference(mEdgeCat);
+        }
 
         int defaultDoze = getResources().getInteger(
                 com.android.internal.R.integer.config_screenBrightnessDoze);
@@ -128,9 +143,9 @@ public class NotificationsSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(getContentResolver(), Settings.System.FLASH_ON_CALLWAITING_DELAY, val);
             return true;
         } else if (preference == mEdgeLightColorPreference) {
-            String hex = ColorPickerPreference.convertToARGB(
+            String hex = ColorPickerPreference.convertToRGB(
                     Integer.valueOf(String.valueOf(newValue)));
-            if (hex.equals("#ff3980ff")) {
+            if (hex.equals("#3980ff")) {
                 preference.setSummary(R.string.default_string);
             } else {
                 preference.setSummary(hex);

@@ -30,6 +30,7 @@
     <string name="recents_title">Recents apps</string>
     <string name="statusbar_title">Status bar</string>
     <string name="volume_title">Volume Settings</string>
+    <string name="theming_title">Theming</string>
     <string name="animations_title">Animations</string>
 
     <!-- General strings -->
@@ -139,13 +140,6 @@
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
-
-    <!-- Language options - Volume rocker cursor control -->
-    <string name="cursor_section_header">Cursor</string>
-    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
-    <string name="volume_key_cursor_control_off">Disabled</string>
-    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
-    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
 
     <!-- Torch Power button -->
     <string name="hardware_keys_power_key_title">Power button</string>
@@ -304,6 +298,18 @@
     <string name="lock_clock_font_burnstown">Burnstown</string>
     <string name="lock_clock_font_dumbledor">Dumbledor</string>
     <string name="lock_clock_font_phantombold">PhantomBold</string>
+    <string name="lock_clock_font_sourcesanspro">Source Sans Pro</string>
+    <string name="lock_clock_font_circularstd">CircularStd</string>
+    <string name="lock_clock_font_slateforoneplus">Slate for OnePlus</string>
+    <string name="lock_clock_font_aclonica">Aclonica</string>
+    <string name="lock_clock_font_amarante">Amarante</string>
+    <string name="lock_clock_font_bariol">Bariol</string>
+    <string name="lock_clock_font_cagliostro">Cagliostro</string>
+    <string name="lock_clock_font_coolstory">Coolstory</string>
+    <string name="lock_clock_font_lgsmartgothic">LGSmartGothic</string>
+    <string name="lock_clock_font_rosemary">Rosemary</string>
+    <string name="lock_clock_font_sonysketch">SonySketch</string>
+    <string name="lock_clock_font_surfer">Surfer</string>
 
     <!-- Media art -->
     <string name="lockscreen_media_category">Music</string>
@@ -520,8 +526,7 @@
     <string name="status_bar_logo_right">Right</string>
     <string name="status_bar_logo_left">Left</string>
     <string name="status_bar_logo_disabled">Disabled</string>
-    <string name="status_bar_logo_style_title">DerpQuest logo style</string>
-    <string name="status_bar_logo_color_title">Select color</string>
+    <string name="status_bar_logo_style_title">DerpFest logo style</string>
 
     <!-- Rounded corners -->
     <string name="corners_category_title">Rounded corners</string>
@@ -542,6 +547,23 @@
     <string name="flash_on_call_category">Pulse flash</string>
     <string name="flash_on_call_title">Pulse flash on incoming call</string>
     <string name="flash_on_call_delay_title">Flash pulse rate</string>
+
+    <string name="lockmods_settings_title">Fonts and sizes</string>
+
+    <!-- Lock Date Fonts -->
+    <string name="lock_date_font_title">Date font options</string>
+    <string name="lock_date_font_summary">Change the default font of the lockscreen date widget</string>
+    <string name="lock_date_font_dialog_title">Select lock date font</string>
+
+    <!-- Lock Clock & Date Size -->
+    <string name="lockdate_font_size_title">Date font size</string>
+    <string name="lockclock_font_size_title">Clock font size</string>
+
+    <!-- LS OwnerInfo Font & Size -->
+    <string name="lock_ownerinfo_font_title">Owner Info font options</string>
+    <string name="lock_ownerinfo_font_summary">Change the default font of the lockscreen owner info</string>
+    <string name="lock_ownerinfo_font_dialog_title">Select lock owner info font</string>
+    <string name="lockowner_font_size_title">Owner info font size</string>
 
     <!-- Custom carrier label and position -->
     <string name="etc_category_title">ETC</string>
@@ -693,5 +715,53 @@
     <!-- Proximity check -->
     <string name="system_proxi_check_enabled_title">Proximity check</string>
     <string name="system_proxi_check_enabled_summary">Check proximity sensor before handling power button and volume button wake events</string>
+
+    <!-- Show statusbar on lockscreen -->
+    <string name="lockscreen_show_status_bar_title">Statusbar</string>
+    <string name="lockscreen_show_status_bar_summary">Show statusbar on the lockscreen</string>
+
+    <!-- Themes -->
+    <string name="theme_select_title">Themes</string>
+    <string name="theme_select_summary">Select accent color, clock interface and more</string>
+
+    <!-- Berry Lite -->
+    <string name="style_title">Style</string>
+    <string name="style_summary">Choose system colors</string>
+    <string name="style_global_title">Style</string>
+    <string name="style_global_entry_automatic">Automatic (wallpaper)</string>
+    <string name="style_global_entry_light">Light</string>
+    <string name="style_global_entry_dark">Dark</string>
+    <string name="style_global_entry_time">Automatic (time of the day)</string>
+    <string name="style_global_entry_app">Managed by %1$s</string>
+    <string name="style_accent_title">Accent color</string>
+    <string name="style_dark_theme_title">Dark theme</string>
+    <string name="style_dark_theme_automatic">Automatic (wallpaper)</string>
+    <string name="style_dark_theme_disabled">Disabled</string>
+    <string name="style_dark_theme_enabled">Enabled</string>
+    <string name="style_dark_theme_livedisplay">Automatic (livedisplay)</string>
+    <string name="accent_picker_dialog_title">Select an accent color</string>
+    <string name="theme_accent_picker_title">Accent color</string>
+    <string name="theme_accent_picker_summary">Select system theme accent color</string>
+    <string name="theme_accent_picker_default">Default</string>
+    <string name="accent_picker_material_colors">Material palette</string>
+    <string name="accent_picker_custom_colors">User requested</string>
+    <string name="accent_picker_brand_colors">Brand colors</string>
+    <string name="style_accent_configuration_not_supported">The current accent isn\'t compatible with the selected style. In order to proceed another accent has to be selected, do you want to continue?</string>
+    <string name="style_accent_configuration_positive">Proceed</string>
+    <string name="style_automagic_title">Automagic</string>
+    <string name="style_automagic_description">Tune the style to match your wallpaper</string>
+    <string name="style_automagic_dialog_content">Suggested style: <b>%1$s</b> with <b>%2$s</b> accent.\nDo you want to apply it?</string>
+    <string name="style_automagic_dialog_positive">Apply</string>
+    <string name="style_accent_default_name">Default</string>
+    <string name="style_dark_overlay_title">Dark mode</string>
+    <string name="style_dark_overlay_default">Deep Grey</string>
+    <string name="style_dark_overlay_black">Amoled Black</string>
+    <string name="style_notification_title">Notification style</string>
+    <string name="style_notification_auto">Automatic (system theme)</string>
+    <string name="style_notification_light">Light</string>
+    <string name="style_notification_dark">Deep Grey</string>
+    <string name="style_notification_black">Amoled Black</string>
+    <string name="style_and_wallpaper_title">Styles &amp; wallpapers</string>
+    <string name="style_and_wallpaper_summary">Select accent color, clock interface and more</string>
 
 </resources>

@@ -1,11 +1,11 @@
 /*
- * Copyright (C) 2019 crDroid Android Project
+ * Copyright (C) 2019 The PixelDust Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- * http://www.apache.org/licenses/LICENSE-2.0
+ *      http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -15,14 +15,16 @@
  */
 package com.derpquest.settings.fragments;
 
-import android.content.BroadcastReceiver;
+import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
+import android.content.pm.ResolveInfo;
 import android.content.res.Resources;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
@@ -34,36 +36,46 @@ import android.provider.Settings;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.internal.util.aosip.aosipUtils;
-
+import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 
-import com.android.settings.R;
 import com.derpquest.settings.preferences.CustomSeekBarPreference;
 
-public class RoundedCornersSettings extends SettingsPreferenceFragment implements
-         OnPreferenceChangeListener {
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
+public class ThemeSettings extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener, Indexable {
+
+    private static final String TAG = "ThemeSettings";
+    private static final String CUSTOM_THEME_BROWSE = "theme_select_activity";
     private static final String SYSUI_ROUNDED_SIZE = "sysui_rounded_size";
     private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
     private static final String SYSUI_STATUS_BAR_PADDING = "sysui_status_bar_padding";
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
 
+    private Preference mThemeBrowse;
     private CustomSeekBarPreference mCornerRadius;
     private CustomSeekBarPreference mContentPadding;
     private CustomSeekBarPreference mSBPadding;
     private SwitchPreference mRoundedFwvals;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.derpquest_settings_rounded_corners);
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
+
+        addPreferencesFromResource(R.xml.derpquest_settings_themes);
+
+        mThemeBrowse = findPreference(CUSTOM_THEME_BROWSE);
+        mThemeBrowse.setEnabled(isBrowseThemesAvailable());
 
         Resources res = null;
         Context ctx = getContext();
@@ -108,6 +120,35 @@ public class RoundedCornersSettings extends SettingsPreferenceFragment implement
         mRoundedFwvals.setOnPreferenceChangeListener(this);
     }
 
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mCornerRadius) {
+            Settings.Secure.putIntForUser(getContext().getContentResolver(), Settings.Secure.SYSUI_ROUNDED_SIZE,
+                    (int) newValue, UserHandle.USER_CURRENT);
+        } else if (preference == mContentPadding) {
+            Settings.Secure.putIntForUser(getContext().getContentResolver(), Settings.Secure.SYSUI_ROUNDED_CONTENT_PADDING,
+                    (int) newValue, UserHandle.USER_CURRENT);
+        } else if (preference == mSBPadding) {
+            Settings.Secure.putIntForUser(getContext().getContentResolver(), Settings.Secure.SYSUI_STATUS_BAR_PADDING,
+                    (int) newValue, UserHandle.USER_CURRENT);
+        } else if (preference == mRoundedFwvals) {
+            restoreCorners();
+        }
+        return true;
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        return super.onPreferenceTreeClick(preference);
+    }
+
+    private boolean isBrowseThemesAvailable() {
+        PackageManager pm = getPackageManager();
+        Intent browse = new Intent();
+        browse.setClassName("com.android.customization", "com.android.customization.picker.CustomizationPickerActivity");
+        return pm.resolveActivity(browse, 0) != null;
+    }
+
     private void restoreCorners() {
         Resources res = null;
         float density = Resources.getSystem().getDisplayMetrics().density;
@@ -130,30 +171,28 @@ public class RoundedCornersSettings extends SettingsPreferenceFragment implement
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mCornerRadius) {
-            Settings.Secure.putIntForUser(getContext().getContentResolver(), Settings.Secure.SYSUI_ROUNDED_SIZE,
-                    (int) newValue, UserHandle.USER_CURRENT);
-        } else if (preference == mContentPadding) {
-            Settings.Secure.putIntForUser(getContext().getContentResolver(), Settings.Secure.SYSUI_ROUNDED_CONTENT_PADDING,
-                    (int) newValue, UserHandle.USER_CURRENT);
-        } else if (preference == mSBPadding) {
-            Settings.Secure.putIntForUser(getContext().getContentResolver(), Settings.Secure.SYSUI_STATUS_BAR_PADDING,
-                    (int) newValue, UserHandle.USER_CURRENT);
-        } else if (preference == mRoundedFwvals) {
-            restoreCorners();
-        }
-        return true;
-    }
-
-    public static void reset(Context mContext) {
-        ContentResolver resolver = mContext.getContentResolver();
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.SYSUI_ROUNDED_FWVALS, 1, UserHandle.USER_CURRENT);
-    }
-
-    @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.OWLSNEST;
     }
+
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.derpquest_settings_themes;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    ArrayList<String> result = new ArrayList<String>();
+                    return result;
+                }
+            };
 }

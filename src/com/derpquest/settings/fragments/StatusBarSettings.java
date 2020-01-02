@@ -174,8 +174,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
         mClockFontStyle = (ListPreference) findPreference(STATUS_BAR_CLOCK_FONT_STYLE);
         int showClockFont = Settings.System.getInt(resolver,
-                Settings.System.STATUS_BAR_CLOCK_FONT_STYLE, 0);
+                Settings.System.STATUS_BAR_CLOCK_FONT_STYLE, 28);
         mClockFontStyle.setValue(String.valueOf(showClockFont));
+        mClockFontStyle.setSummary(mClockFontStyle.getEntry());
         mClockFontStyle.setOnPreferenceChangeListener(this);
 
         if (DateFormat.is24HourFormat(getActivity())) {
@@ -201,6 +202,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mClockDateStyle.setOnPreferenceChangeListener(this);
 
         mClockDateFormat = (ListPreference) findPreference(STATUS_BAR_CLOCK_DATE_FORMAT);
+        mClockDateFormat.setSummary(mClockDateFormat.getEntry());
         mClockDateFormat.setOnPreferenceChangeListener(this);
         String clkvalue = Settings.System.getString(getActivity().getContentResolver(),
                 Settings.System.STATUSBAR_CLOCK_DATE_FORMAT);
@@ -254,7 +256,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                 // And also enable the net monitor
                 Settings.System.putIntForUser(getActivity().getContentResolver(),
                         Settings.System.NETWORK_TRAFFIC_STATE, 1, UserHandle.USER_CURRENT);
-                updateTrafficLocation(location+1);
+                updateTrafficLocation(location);
             } else { // Disable net monitor completely
                 Settings.System.putIntForUser(getActivity().getContentResolver(),
                         Settings.System.NETWORK_TRAFFIC_STATE, 0, UserHandle.USER_CURRENT);

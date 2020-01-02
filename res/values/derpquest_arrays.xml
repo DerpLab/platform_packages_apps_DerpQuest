@@ -59,19 +59,6 @@
         <item>@string/action_value_select_app</item>
     </string-array>
 
-    <!--- Volume key cursor control -->
-    <string-array name="volume_key_cursor_control_entries">
-        <item>@string/volume_key_cursor_control_off</item>
-        <item>@string/volume_key_cursor_control_on</item>
-        <item>@string/volume_key_cursor_control_on_reverse</item>
-    </string-array>
-
-    <string-array name="volume_key_cursor_control_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
     <string-array name="torch_long_press_power_timeout_entries" translatable="false">
         <item>@string/torch_long_press_power_timeout_never</item>
         <item>@string/torch_long_press_power_timeout_1min</item>
@@ -207,6 +194,18 @@
         <item>@string/lock_clock_font_burnstown</item>
         <item>@string/lock_clock_font_dumbledor</item>
         <item>@string/lock_clock_font_phantombold</item>
+        <item>@string/lock_clock_font_sourcesanspro</item>
+        <item>@string/lock_clock_font_circularstd</item>
+        <item>@string/lock_clock_font_slateforoneplus</item>
+        <item>@string/lock_clock_font_aclonica</item>
+        <item>@string/lock_clock_font_amarante</item>
+        <item>@string/lock_clock_font_bariol</item>
+        <item>@string/lock_clock_font_cagliostro</item>
+        <item>@string/lock_clock_font_coolstory</item>
+        <item>@string/lock_clock_font_lgsmartgothic</item>
+        <item>@string/lock_clock_font_rosemary</item>
+        <item>@string/lock_clock_font_sonysketch</item>
+        <item>@string/lock_clock_font_surfer</item>
     </string-array>
 
     <string-array name="lock_clock_fonts_values" translatable="false">
@@ -246,6 +245,18 @@
         <item>33</item>
         <item>34</item>
         <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
     </string-array>
 
     <!-- Volume step options. -->
@@ -533,6 +544,22 @@
         <item>@string/SHORT_MMS_TEMP_APP_WHITELIST_DURATION</item>
         <item>@string/SHORT_SMS_TEMP_APP_WHITELIST_DURATION</item>
         <item>@string/SHORT_KEY_NOTIFICATION_WHITELIST_DURATION</item>
+    </string-array>
+
+    <!-- Berry lite -->
+    <string-array name="style_entries" translatable="false">
+        <item>@string/style_global_entry_automatic</item>
+        <!--item>@string/style_global_entry_time</item-->
+        <item>@string/style_global_entry_light</item>
+        <item>@string/style_global_entry_dark</item>
+    </string-array>
+
+    <!-- Global style values -->
+    <string-array name="style_values" translatable="false">
+        <item>0</item> <!-- Based on wallpaper -->
+        <!--item>1</item--> <!-- Based on LiveDisplay -->
+        <item>2</item> <!-- Force light -->
+        <item>3</item> <!-- Force dark -->
     </string-array>
 
 </resources>
