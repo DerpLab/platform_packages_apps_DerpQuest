@@ -46,8 +46,8 @@
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint" translatable="false">#FFDDDDDD</string>
-    <string name="hex_check_button_text">ПРЕДПРОСМОТР</string>
-    <string name="hex_reset_button_text">СБРОС</string>
+    <string name="hex_check_button_text">Предпросмотр</string>
+    <string name="hex_reset_button_text">Сброс</string>
     <string name="set">Установить</string>
     <string name="color_default">Стандарт</string>
     <string name="color_right_arrow" translatable="false">"→"</string>
@@ -73,7 +73,7 @@
     <string name="powermenu_settings">Настройки</string>
     <string name="powermenu_lockdown">Блокировка</string>
     <string name="powermenu_users">Пользователи</string>
-    <string name="powermenu_logout">Выйти</string>
+    <string name="powermenu_logout">Выход</string>
     <string name="powermenu_torch">Вспышка</string>
 
     <!-- Volume settings -->
@@ -129,7 +129,7 @@
     <string name="hardware_keys_disable_title">Отключить кнопки</string>
 
     <!-- ANBI -->
-    <string name="anbi_title">Случайное касание</string>
+    <string name="anbi_title">Случайное прикосновение</string>
     <string name="anbi_summary">Запретить взаимодействие с кнопками навигации во время касания экрана</string>
 
     <!-- Volume rocker music control -->
@@ -149,8 +149,8 @@
 
     <!-- Torch Power button -->
     <string name="hardware_keys_power_key_title">Кнопка питания</string>
-    <string name="torch_long_press_power_gesture_title">Включение фонарика кнопкой вклоючния</string>
-    <string name="torch_long_press_power_gesture_desc">Когда устройство заблокировано, кнопка включения включит фонарик</string>
+    <string name="torch_long_press_power_gesture_title">Включение фонарика кнопкой питания</string>
+    <string name="torch_long_press_power_gesture_desc">Когда устройство заблокировано, кнопка питания включит фонарик</string>
     <string name="torch_long_press_power_timeout_title">Автоматическое отключение фонарика</string>
     <string name="torch_long_press_power_timeout_never">Никогда</string>
     <string name="torch_long_press_power_timeout_1min">1 минута</string>
@@ -160,24 +160,24 @@
 
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Пробуждать экран при зарядке</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Пробуждать экран если подключено/не подключено к зарядке.</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Пробуждать экран если подключено/не подключено к ЗУ.</string>
 
     <!-- Battery light -->
-    <string name="battery_light_settings">Индикатор зарядки батареи</string>
+    <string name="battery_light_settings">Индикатор заряда батареи</string>
     <string name="battery_light_enable">Включен</string>
     <string name="battery_light_allow_on_dnd_title">Индикатор батареи при включеном режиме "Не беспокоить"</string>
     <string name="battery_light_low_blinking_title">Моргающий индикатор батареи при низком заряде</string>
     <string name="battery_light_cat">Цвет индикатора батареи при зарядке</string>
-    <string name="battery_light_low_color">Слабый заряд батареи</string>
+    <string name="battery_light_low_color">Низкий заряд батареи</string>
     <string name="battery_light_medium_color">Средний заряд батареи</string>
     <string name="battery_light_full_color">Батарея почти заряжена</string>
-    <string name="battery_light_reallyfull_color">Батарея заряжена</string>
+    <string name="battery_light_reallyfull_color">Батарея полностью заряжена</string>
 
     <string name="notification_light_settings">Индикатор уведомлений</string>
 
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Вибрация при использовании отпечатка пальца</string>
-    <string name="fprint_sucess_vib_summary">Вибрация при успешной разблокировки отпечатком пальца</string>
+    <string name="fprint_sucess_vib_summary">Вибрация при успешной разблокировке отпечатком пальца</string>
 
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Отображение интернет трафика</string>
@@ -197,15 +197,15 @@
     <string name="nettraf_font_size">Размер шрифта одиночного измерения</string>
 
     <!-- Statusbar double tap to sleep -->
-    <string name="double_tap_to_sleep_title">Двойной тап по строке состояния заблокирует экран</string>
+    <string name="double_tap_to_sleep_title">Двойной тап по строке состояния для перехода в спящий режим</string>
     <string name="double_tap_to_sleep_summary">Двойной тап по строке состояния переведёт устройство в спящий режим</string>
     <!-- Lockscreen double tap to sleep -->
-    <string name="double_tap_sleep_lockscreen_title">Двойной тап по экрану блокировки переведёт устройство в спящий режим</string>
+    <string name="double_tap_sleep_lockscreen_title">Двойной тап по экрану блокировки для перехода в спящий режим</string>
     <string name="double_tap_sleep_lockscreen_summary">Двойной тап по любому месту на экране блокировки переведёт устройство в спящий режим</string>
 
     <!-- Disable power menu on secure lock screen -->
     <string name="lockscreen_power_menu_disabled_title">Отключить меню питания, когда экран заблокирован</string>
-    <string name="lockscreen_power_menu_disabled_summary">Отключить меню питания, когда стоит экранная блокировка</string>
+    <string name="lockscreen_power_menu_disabled_summary">Отключить меню питания, когда установлена блокировка экрана</string>
 
     <!-- Battery Bar -->
     <string name="tuner_keyguard_show_battery_bar_title">Показывать иконку батареи</string>
@@ -214,7 +214,7 @@
     <string name="tuner_keyguard_show_battery_bar_always_summary">ВСегда показывать иконку батареи при зарядке</string>
 
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Вибрация при косании</string>
+    <string name="quick_settings_vibrate_title">Вибрация при касании</string>
     <string name="quick_settings_vibrate_summary">Вибрация при касании меню быстрых настроек</string>
 
     <!-- QSTile requires unlocking before being accessible -->
@@ -308,10 +308,10 @@
     <!-- Media art -->
     <string name="lockscreen_media_category">Музыка</string>
     <string name="media_art_title">Обложка произведения</string>
-    <string name="media_art_summary">Включить обложку произведения на блокировке</string>
+    <string name="media_art_summary">Включить обложку произведения на экране блокировки</string>
 
     <!-- Lock screen media blur -->
-    <string name="lockscreen_media_blur_title">Уровень размытия произведения на блокировке</string>
+    <string name="lockscreen_media_blur_title">Уровень размытия обложки произведения на экране блокировки</string>
 
     <!-- Lockscreen cover art filter -->
     <string name="lockscreen_cover_filter_title">Фильтр обложки произведения</string>
@@ -319,22 +319,22 @@
     <string name="lockscreen_cover_filter_grayscale">Оттенок серого</string>
     <string name="lockscreen_cover_filter_tint">Акцент затонированный</string>
     <string name="lockscreen_cover_filter_blur">Размыто</string>
-    <string name="lockscreen_cover_filter_grayblur">Grayscale and blurred</string>
+    <string name="lockscreen_cover_filter_grayblur">Оттенок серого и размытие</string>
     <string name="lockscreen_cover_filter_gradientblur">Размытие оттенка серого</string>
 
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Жест трёх пальцев</string>
+    <string name="three_finger_gesture">Жест трёмя пальцами</string>
     <string name="three_finger_gesture_summary">Проведите тремя пальцами для скриншота</string>
 
     <!-- Volume Steps -->
-    <string name="volume_steps_title">Volume steps</string>
-    <string name="volume_steps_alarm_title">Volume steps: Будильник</string>
-    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
-    <string name="volume_steps_music_title">Volume steps: Музыка</string>
-    <string name="volume_steps_notification_title">Volume steps: Уведомление</string>
-    <string name="volume_steps_ring_title">Volume steps: Гудок</string>
-    <string name="volume_steps_system_title">Volume steps: Система</string>
-    <string name="volume_steps_voice_call_title">Volume steps: Голосовой звонок</string>
+    <string name="volume_steps_title">Шаги громкости</string>
+    <string name="volume_steps_alarm_title">Шаги громкости: Будильник</string>
+    <string name="volume_steps_dtmf_title">Шаги громкости: DTMF</string>
+    <string name="volume_steps_music_title">Шаги громкости: Музыка</string>
+    <string name="volume_steps_notification_title">Шаги громкости: Уведомление</string>
+    <string name="volume_steps_ring_title">Шаги громкости: Рингтон</string>
+    <string name="volume_steps_system_title">Шаги громкости: Система</string>
+    <string name="volume_steps_voice_call_title">Шаги громкости: Голосовой вызов</string>
     <string name="volume_steps_reset">Сброс</string>
     <string name="volume_steps_60" translatable="false">60</string>
     <string name="volume_steps_45" translatable="false">45</string>
@@ -351,7 +351,7 @@
 
     <!-- Battery Styles -->
     <string name="battery_style_category_title">Уровень заряда</string>
-    <string name="battery_percent_title">Проценты заряда</string>
+    <string name="battery_percent_title">Процент заряда</string>
 
     <!-- QS security footer -->
     <string name="qs_show_secure_title">Заголовок безопасности</string>
@@ -366,7 +366,7 @@
     <string name="status_bar_battery_style_hidden">Спрятан</string>
 
     <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Проценты батареи</string>
+    <string name="status_bar_battery_percentage_title">Процент батареи</string>
     <string name="status_bar_battery_percentage_default">Спрятаны (стандарт)</string>
     <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
     <string name="status_bar_battery_percentage_text_next">Снаружи иконки</string>
@@ -405,10 +405,10 @@
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Строка состояния опускает быстрые настройки</string>
     <string name="quick_pulldown_summary">%1$s</string>
-    <string name="quick_pulldown_off">Выкл.</string>
+    <string name="quick_pulldown_off">Выключено</string>
     <string name="quick_pulldown_left">Левый край</string>
     <string name="quick_pulldown_right">Правый край</string>
-    <string name="quick_pulldown_always">Где угодно</string>
+    <string name="quick_pulldown_always">Всегда</string>
 
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_enable">Визуализатор музыки</string>
@@ -451,7 +451,7 @@
     <!-- Audio Panel view -->
     <string name="audio_panel_view">Панель громкости</string>
     <string name="audio_panel_view_media_title">Медиа</string>
-    <string name="audio_panel_view_ringer_title">звонок</string>
+    <string name="audio_panel_view_ringer_title">Рингтон</string>
     <string name="audio_panel_view_notification_title">Уведомление</string>
     <string name="audio_panel_view_alarm_title">Будильник</string>
     <string name="audio_panel_view_voice_title">Голос</string>
@@ -459,7 +459,7 @@
 
     <!-- Charging animation -->
     <string name="charging_animation_title">Анимация зарядки</string>
-    <string name="charging_animation_summary">Показывать анимаю, когда устройство подключено</string>
+    <string name="charging_animation_summary">Показывать анимацию, когда ЗУ подключено</string>
 
     <!-- Per App aspect Ratio -->
     <string name="action_save">Сохранить</string>
@@ -476,16 +476,16 @@
 
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Варианты вибрации при вызове</string>
-    <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
+    <string name="incall_vibrate_connect_title">Вибрация при подключении вызова</string>
     <string name="incall_vibrate_connect_summary">Включить вибрацию после подключения звонка</string>
     <string name="incall_vibrate_call_wait_title">Вибрация при ожидании вызова</string>
     <string name="incall_vibrate_call_wait_summary">Включить вибрацию при ожидании вызова</string>
-    <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
-    <string name="incall_vibrate_disconnect_summary">Включить вибрацию при отключении вызова</string>
+    <string name="incall_vibrate_disconnect_title">Вибрация при окончании вызова</string>
+    <string name="incall_vibrate_disconnect_summary">Включить вибрацию при окончании вызова</string>
 
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Управление яркостью</string>
-    <string name="status_bar_toggle_brightness_summary">Регулируйте яркость, скользя по строке состояния</string>
+    <string name="status_bar_toggle_brightness_summary">Регулируйте яркость, проведя по строке состояния</string>
 
     <!-- AOKP custom system animations -->
     <string name="system_animation_title">Система</string>
@@ -503,7 +503,7 @@
     <string name="animation_duration_title">Длительность анимации</string>
     <string name="title_animation_no_override">Предотвратить отмену приложения</string>
     <string name="summary_animation_no_override">Запретить приложениям отменять переходы</string>
-    <string name="animation_duration_default">Стандарт</string>
+    <string name="animation_duration_default">Стандартная длительность анимации</string>
 
     <!-- Force disable transition animation -->
     <string name="disable_transition_animations_title">Отключить анимацию перехода</string>
@@ -531,8 +531,8 @@
     <string name="unit_pixels">dp</string>
 
     <!-- smart notifications -->
-    <string name="notification_sound_vib_screen_on_title">Громкие уведомления, если экран включен</string>
-    <string name="notification_sound_vib_screen_on_summary">Отключить, чтобы блокировать звук и вибрацию уведомлений, когда экран включен</string>
+    <string name="notification_sound_vib_screen_on_title">Громкость и вибрация уведомлений, при включенном экране</string>
+    <string name="notification_sound_vib_screen_on_summary">Отключите, чтобы блокировать звук и вибрацию уведомлений, когда экран включен</string>
 
     <!-- flash on call waiting -->
     <string name="flash_on_call_category">Мигающая вспышка</string>
@@ -560,7 +560,7 @@
     <!-- Ambient edge lighting -->
     <string name="notification_screen_title">Экран</string>
     <string name="pulse_ambient_light_title">Подсветка краев экрана</string>
-    <string name="pulse_ambient_light_summary">Пульсирующая подсветка боковых краев экрана при уведомлении</string>
+    <string name="pulse_ambient_light_summary">Пульсирующая подсветка боковых краев экрана при входящем уведомлении</string>
     <string name="pulse_ambient_light_color_title">Цвет подсветки</string>
 
     <!-- QuickSettings Panel Transparency -->
@@ -575,8 +575,8 @@
     <string name="ambient_doze_brightness_summary">Установите яркость для использования при включенном Ambient</string>
 
     <!-- Doze settings editor -->
-    <string name="doze_settings_title">Настройки дозировки</string>
-    <string name="doze_settings_summary">Изменить настройки конфигурации дозы</string>
+    <string name="doze_settings_title">Настройки режима Doze</string>
+    <string name="doze_settings_summary">Изменить настройки Doze</string>
     <string name="action_restoredefault">Восстановить настройки</string>
     <string name="action_profile">Профили</string>
     <string name="action_save_as_profile">Сохранить профиль</string>
@@ -614,9 +614,9 @@
     <string name="DESC_KEY_NOTIFICATION_WHITELIST_DURATION">Время, которое мы хотели бы добавить в белый список приложения, которое обрабатывает уведомление</string>
     <string name="SHORT_INACTIVE_TIMEOUT">Неактивное время ожидания</string>
     <string name="SHORT_SENSING_TIMEOUT">Время ожидания</string>
-    <string name="SHORT_LOCATING_TIMEOUT">Тайм-аут локации</string>
+    <string name="SHORT_LOCATING_TIMEOUT">Тайм-аут местоположения</string>
     <string name="SHORT_LOCATION_ACCURACY">Точность местоположения</string>
-    <string name="SHORT_MOTION_INACTIVE_TIMEOUT">Motion inactive timeout</string>
+    <string name="SHORT_MOTION_INACTIVE_TIMEOUT">Тайм-аут неактивного движения</string>
     <string name="SHORT_IDLE_AFTER_INACTIVE_TIMEOUT">Действие после неактивного тайм-аута</string>
     <string name="SHORT_IDLE_PENDING_TIMEOUT">Время ожидания простоя</string>
     <string name="SHORT_MAX_IDLE_PENDING_TIMEOUT">Максимальное время ожидания</string>
@@ -672,13 +672,13 @@
     <string name="no_stat_because_reset_wakelock">Нажмите сброс, чтобы начать сбор данных о wakelock</string>
     <string name="no_stat_because_plugged">Пожалуйста, отключите питание, чтобы получить данные Wakelock</string>
     <string name="no_states_file_found">Файл состояний не найден. Вы уверены, что ваш телефон
-        совместимый?\n\nЕсли вы используете собственное ПЗУ или ядро,
-     попробуйте связаться с ним, чтобы сообщить ему, что файл нечитаем</string>
+        совместимый?\n\nЕсли вы используете кастомную прошивку или ядро,
+     попробуйте связаться с разработчиком, чтобы сообщить ему, что файл недоступен</string>
     <string name="deep_sleep">"Глубокий сон"</string>
     <string name="mt_refresh">Обновить</string>
     <string name="mt_share">Поделиться</string>
     <string name="mt_reset">Сбросить</string>
     <string name="time_in_state_title">Время в состоянии</string>
-    <string name="time_in_state_summary">Показывать статистику частоты процессора</string>
+    <string name="time_in_state_summary">Показывать статистику частот процессора</string>
 
 </resources>
