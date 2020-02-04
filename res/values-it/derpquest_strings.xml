@@ -170,7 +170,7 @@
 
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Vibrazione autenticazione FOD</string>
-    <string name="fprint_sucess_vib_summary">Vibra quando l'impronta digitale viene riconosciuta</string>
+    <string name="fprint_sucess_vib_summary">Vibra quando l\'impronta digitale viene riconosciuta</string>
 
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Indicatore traffico di rete</string>
@@ -202,7 +202,7 @@
 
     <!-- Battery Bar -->
     <string name="tuner_keyguard_show_battery_bar_title">Mostra barra batteria</string>
-    <string name="tuner_keyguard_show_battery_bar_summary">Mostra barra batteria sull'always on display quando il dispositivo è in carica</string>
+    <string name="tuner_keyguard_show_battery_bar_summary">Mostra barra batteria sull\'always on display quando il dispositivo è in carica</string>
     <string name="tuner_keyguard_show_battery_bar_always_title">Mostra sempre la barra batteria</string>
     <string name="tuner_keyguard_show_battery_bar_always_summary">Mostra sempre la barra batteria quando in carica</string>
     <string name="tuner_keyguard_battery_bar_color_title">Colore barra batteria</string>
@@ -250,7 +250,7 @@
     <string name="status_bar_am_pm_hidden">Nascosto (predefinito)</string>
     <string name="clock_seconds_display">Mostra secondi</string>
     <string name="clock_date_display">Data</string>
-    <string name="clock_date_display_summary">Mostra data personalizzata a sinistra dell'ora</string>
+    <string name="clock_date_display_summary">Mostra data personalizzata a sinistra dell\'ora</string>
     <string name="clock_date_display_none">Non mostrare</string>
     <string name="clock_date_display_small">Dimensione font piccola</string>
     <string name="clock_date_display_normal">Dimensione font media</string>
@@ -262,8 +262,8 @@
     <string name="clock_date_format">Formato data</string>
     <string name="clock_date_string_edittext_title">Deve essere necessariamente in DateFormat es. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Inserisci stringa</string>
-    <string name="clock_date_right">A destra dell'ora</string>
-    <string name="clock_date_left">A sinistra dell'ora</string>
+    <string name="clock_date_right">A destra dell\'ora</string>
+    <string name="clock_date_left">A sinistra dell\'ora</string>
     <string name="clock_date_position">Posizione data</string>
 
     <!-- Statusbar Clock Font Style & Size -->
@@ -390,8 +390,8 @@
     <!-- Status bar - Battery percentage -->
     <string name="status_bar_battery_percentage_title">Percentuale batteria</string>
     <string name="status_bar_battery_percentage_default">Nascosta (predefinito)</string>
-    <string name="status_bar_battery_percentage_text_inside">Dentro l'icona</string>
-    <string name="status_bar_battery_percentage_text_next">Accanto all'icona</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro l\'icona</string>
+    <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
     <string name="status_bar_battery_text_charging_title">Percentuale batteria durante la ricarica</string>
     <string name="status_bar_battery_text_charging_summary">Mostra sempre la percentuale batteria durante la carica</string>
 
@@ -414,11 +414,11 @@
 
     <!-- Battery mode -->
     <string name="qs_hide_battery_title">Nascondi icona batteria<string>
-    <string name="qs_hide_battery_summary">Nascondi l'icona batteria dall'header QS</string>
+    <string name="qs_hide_battery_summary">Nascondi l\'icona batteria dall\'header QS</string>
     <string name="battery_percentage_title">Percentuale batteria</string>
     <string name="battery_percentage_off">Disabilitata</string>
     <string name="battery_percentage_next">Abilitata</string>
-    <string name="battery_percentage_inside">Abilitata (dentro l'icona)</string>
+    <string name="battery_percentage_inside">Abilitata (dentro l\'icona)</string>
     <string name="battery_percentage_estimate">Abilitata (stima)</string>
     <string name="battery_percentage_percentage_estimate">Abilitata (percentuale | stima)</string>
 
@@ -463,8 +463,8 @@
     <string name="custom_header_provider_title">Provider header</string>
     <string name="custom_header_pick_title">Scegli immagini header</string>
     <string name="custom_header_pick_summary">Seleziona immagine locale o da fonte remota</string>
-    <string name="style_enabled_summary">L'immagine header personalizzata è attivata</string>
-    <string name="style_disabled_summary">L'immagine header personalizzata è disattivata</string>
+    <string name="style_enabled_summary">L\'immagine header personalizzata è attivata</string>
+    <string name="style_disabled_summary">L\'immagine header personalizzata è disattivata</string>
     <string name="header_provider_disabled">Disabilitato</string>
     <string name="custom_header_title">Immagine header personalizzata</string>
     <string name="file_header_select_title">Scegli immagine locale</string>
@@ -589,7 +589,7 @@
     <string name="carrier_label_settings_title">Etichetta operatore</string>
     <string name="carrier_label_settings_summary">Personalizza etichetta operatore</string>
     <string name="custom_carrier_label_title">Etichetta operatore personalizzata</string>
-    <string name="custom_carrier_label_explain">Inserisci una nuova etichetta. Lascia vuoto per ripristinare l'etichetta predefinita</string>
+    <string name="custom_carrier_label_explain">Inserisci una nuova etichetta. Lascia vuoto per ripristinare l\'etichetta predefinita</string>
     <string name="custom_carrier_label_notset">Etichetta personalizzata non configurata</string>
     <string name="show_carrier_title">Etichetta operatore</string>
     <string name="show_carrier_disabled">Disabilitata</string>
