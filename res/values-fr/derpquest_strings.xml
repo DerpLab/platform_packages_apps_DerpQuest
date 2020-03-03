@@ -190,7 +190,6 @@
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Affichage du trafic réseau</string>
     <string name="network_traffic_state_summary">Placement et affichage du moniteur réseau</string>
-    <string name="network_traffic_location_title">Location du moniteur réseau</string>
     <string name="traffic_statusbar">Barre d\'état</string>
     <string name="traffic_expanded_statusbar">Barre d\'état étendue</string>
     <string name="network_traffic_autohide_threshold_title">Masquer si inférieur à (KB/s)</string>
@@ -886,7 +885,7 @@
     <string name="fod_recog_animation_op_mclaren">McLaren</string>
     <string name="fod_recog_animation_pureview_future">Future</string>
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
-    
+
     <!-- RGB Picker -->
     <string name="accent_color">Sélectionner la couleur d\'accentuation</string>
     <string name="accent_summary">Sélectionner la couleur d\'accentuation utilisée par le système</string>
