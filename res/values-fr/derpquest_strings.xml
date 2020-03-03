@@ -841,7 +841,7 @@
     <string name="lockscreen_clock_hide">Cachée</string>
     <string name="lockscreen_clock_default">Par défaut</string>
     <string name="lockscreen_clock_default_bold">Par défaut (gras)</string>
-    <string name="lockscreen_clock_default_accent">Par défaut (couleur d'accentuation)</string>
+    <string name="lockscreen_clock_default_accent">Par défaut (couleur d\'accentuation)</string>
     <string name="lockscreen_clock_default_accent_min">Par défaut (minutes accentuées)</string>
     <string name="lockscreen_clock_default_accent_hour">Par défaut (heures accentuées)</string>
     <string name="lockscreen_clock_sammy">Sammy</string>
