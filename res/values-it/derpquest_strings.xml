@@ -808,7 +808,7 @@
     <string name="pulse_ambient_light_duration_summary">Imposta durata animazione Ambient light</string>
     <string name="pulse_ambient_light_repeat_count_title">Numero ripetizioni</string>
     <string name="pulse_ambient_light_repeat_count_summary">Imposta numero massimo ripetizioni. 0 per ripetizioni infinite</string>
-   <string name="pulse_ambient_light_pulse_for_all_title">Ripeti per ogni evento doze</string>
+    <string name="pulse_ambient_light_pulse_for_all_title">Ripeti per ogni evento doze</string>
     <string name="pulse_ambient_light_pulse_for_all_summary">Pulses for any doze wake and not just notifications when enabled</string>
     <string name="ambient_notification_light_color_mode_title">Modalità colore</string>
     <string name="ambient_notification_light_color_mode_automatic">Colore notifica</string>
