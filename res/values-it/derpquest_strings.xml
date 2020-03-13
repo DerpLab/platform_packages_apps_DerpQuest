@@ -295,7 +295,8 @@
     <string name="lock_clock_font_notoserif">NotoSerif normale</string>
     <string name="lock_clock_font_notoserif_italic">NotoSerif corsivo</string>
     <string name="lock_clock_font_notoserif_bold">NotoSerif grassetto</string>
-    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif grassetto Italiccorsivo</string
+    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif grassetto Italiccorsivo</string>
+
     <string name="lock_clock_font_gobold">GoBold leggero</string>
     <string name="lock_clock_font_roadrage">Road Rage</string>
     <string name="lock_clock_font_snowstorm">Snowstorm</string>
