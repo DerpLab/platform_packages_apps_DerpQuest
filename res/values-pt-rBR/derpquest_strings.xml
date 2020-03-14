@@ -679,6 +679,8 @@
     <string name="qs_bg_use_fw_summary">Personalizar cores das configurações rápidas</string>
     <string name="qs_bg_accent_title">Usar cor de destaque</string>
     <string name="qs_bg_accent_summary">Definir cor do fundo das CR a partir da cor de destaque do sistema</string>
+	<string name="qs_bg_use_new_tint">Tinta</string>
+    <string name="qs_bg_use_new_tint_summary">Ativar estilo de tonalidade de blocos das CR</string>
     <!-- Themes -->
     <string name="theme_select_title">Temas</string>
     <string name="theme_select_summary">Procurar e selecionar temas instalados</string>
@@ -741,6 +743,7 @@
     <string name="lockscreen_clock_default_accent_hour">Default (accent hours)</string>
     <string name="lockscreen_clock_sammy">Sammy</string>
     <string name="lockscreen_clock_sammy_bold">Sammy (negrito)</string>
+	<string name="lockscreen_clock_sammy_accent">Sammy (destaque)</string>
     <string name="lockscreen_clock_sammy_accent_hour">Sammy (accent hour)</string>
     <string name="lockscreen_clock_sammy_accent_min">Sammy (accent minute)</string>
     <string name="lockscreen_clock_text">Texto (Android 9)</string>
