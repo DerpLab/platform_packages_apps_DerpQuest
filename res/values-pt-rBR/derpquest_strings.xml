@@ -836,7 +836,7 @@
     <string name="lockscreen_clock_text">Texto (Android 9)</string>
     <string name="lockscreen_clock_text_alt">Texto (Android 10)</string>
     
-	<!-- Lockscreen Date styles -->'
+	<!-- Lockscreen Date styles -->
     <string name="lockscreen_date_selection_title">Estilo da Data</string>
     <string name="lockscreen_date_dialog_title">Selecionar estilo da data</string>
     <string name="lockscreen_date_selection_default">Padrão</string>
