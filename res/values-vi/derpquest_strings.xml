@@ -915,7 +915,7 @@
     <string name="about_dev_title">Nhà phát triển chính</string>
     <string name="about_dev_name">Ido Ben-Hur</string>
     <string name="about_dev_git" translatable="false">https://github.com/idoybh</string>
-    <string name="about_qa_title">Trưởng nhóm Q&A</string>
+    <string name="about_qa_title">Trưởng nhóm Q&amp;A</string>
     <string name="about_qa_name">David Setiawan</string>
     <string name="about_qa_git" translatable="false">https://github.com/fryevia</string>
     <string name="maintainer">Người duy trì</string>
