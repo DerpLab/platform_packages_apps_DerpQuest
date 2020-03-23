@@ -815,9 +815,6 @@
     <string name="DESC_MIN_LIGHT_MAINTENANCE_TIME">Αυτό είναι το ελάχιστο χρονικό όριο, που θα μείνουμε σε κατάσταση επιλογών (maintenance mode) μετά απόελαφρύ ύπνο</string>
     <string name="DESC_MIN_DEEP_MAINTENANCE_TIME">Αυτό είναι το ελάχιστο χρονικό όριο, που θα μείνουμε σε κατάσταση επιλογών (maintenance mode) μετά από βαθύ ύπνο</string>
     <string name="DESC_KEY_NOTIFICATION_WHITELIST_DURATION">Χρονικό όριο που θέλουμε να είναι μια εφαρμογή σε λευκή λίστα, η οποία διαχειρίζεται ειδοποιήσεις</string>
-    <string name="DESC_MIN_LIGHT_MAINTENANCE_TIME">This is the minimum amount of time that we will stay in maintenance mode after a light doze</string>
-    <string name="DESC_MIN_DEEP_MAINTENANCE_TIME">This is the minimum amount of time that we will stay in maintenance mode after a full doze</string>
-    <string name="DESC_KEY_NOTIFICATION_WHITELIST_DURATION">Amount of time we would like to whitelist an app that is handling a notification</string>
     <string name="SHORT_INACTIVE_TIMEOUT">Ανενεργό χρονικό όριο</string>
     <string name="SHORT_SENSING_TIMEOUT">Χρονικό όριο συναγερμού</string>
     <string name="SHORT_LOCATING_TIMEOUT">Χρονικό όριο ανίχνευσης</string>
