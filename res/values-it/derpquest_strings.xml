@@ -793,7 +793,6 @@
     <string name="unit_pixels">dp</string>
 
     <!-- Statusbar ticker -->
-    <string name="statusbar_notifi_cat">Ticker notifiche (beta)</string>
     <string name="status_bar_show_ticker_title">Ticker</string>
     <string name="status_bar_show_ticker_summary">Anteprima notifica nella barra di stato</string>
     <string name="ticker_animation_mode_title">Animazione Ticker</string>
