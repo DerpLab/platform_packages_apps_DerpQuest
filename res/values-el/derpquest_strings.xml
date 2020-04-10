@@ -678,7 +678,7 @@
      
     <!-- About - Device specific links -->
     <string name="about_device_category">Πρόσθετες λήψεις συσκευής</string>
-    <string name="about_device_fw">Προτεινόμενο λογισμικό (firmware)/string>
+    <string name="about_device_fw">Προτεινόμενο λογισμικό (firmware)</string>
     <string name="about_device_recovery">Προτεινόμενη ανάκτηση(Recovery)</string>
 
     <!-- Accent presets -->
