@@ -821,4 +821,8 @@
     <string name="qs_tile_panels_summary_enabled">Εμφάνιση των λεπτομερειών ειδοποπ. κεφαλίδας μέσα σε ένα πάνελ</string>
     <string name="qs_tile_panels_summary_disabled">Εμφάνιση των λεπτομερειών ειδοποπ. κεφαλίδας μέσα σε ένα πλακίδιο</string>
      
+     <!-- R Notification headers -->
+    <string name="notification_headers_title">Τύπος εμφάνισης ειδοποιήσεων κεφαλίδας</string>
+    <string name="notification_headers_summary">Ενεργοπ./Απενεργοπ. ειδοποιήσεων κεφαλίδας στυλ R-Android-11 (Χρειάζεται επανεκ/ση του SystemUI)</string>
+     
 </resources>
