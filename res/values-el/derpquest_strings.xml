@@ -816,7 +816,7 @@
     <string name="heads_up_blacklist_title">Μαύρη λίστα</string>
     <string name="add_heads_up_blacklist_summary">Απενεργοποίηση ειδοποιήσεων κεφαλίδας, για αυτές τις εφαρμογές</string>
      
-     <!-- QS panels -->
+    <!-- QS panels -->
     <string name="qs_tile_panels_title">Εμφάνιση των πάνελ</string>
     <string name="qs_tile_panels_summary_enabled">Εμφάνιση των λεπτομερειών ειδοποπ. κεφαλίδας μέσα σε ένα πάνελ</string>
     <string name="qs_tile_panels_summary_disabled">Εμφάνιση των λεπτομερειών ειδοποπ. κεφαλίδας μέσα σε ένα πλακίδιο</string>
