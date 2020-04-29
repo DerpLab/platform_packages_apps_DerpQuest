@@ -93,8 +93,8 @@
     <string name="force_expanded_notifications_summary">Принудительнное раскрывание увидомлений в поддерживаемых приложениях</string>
 
     <!-- R Notification headers -->
-    <string name="notification_headers_title">Отображение заголовк увидомлений</string>
-    <string name="notification_headers_summary">Отображать заголовки увидомлений в R стиле (Требуеться перезапуск SystemUI)</string>
+    <string name="notification_headers_title">Новый стиль увидомлений</string>
+    <string name="notification_headers_summary">Отображать увидомления в R стиле (Требуеться перезапуск SystemUI)</string>
 
     <!-- Heads up -->
     <string name="heads_up_settings_title">Всплывающие увидомления</string>
