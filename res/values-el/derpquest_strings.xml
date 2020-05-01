@@ -73,6 +73,7 @@
     <string name="backlight_timeout_15s">15 δευτ</string>
     <string name="backlight_timeout_20s">20 δευτ</string>
     <string name="backlight_timeout_30s">30 δευτ</string>
+    <string name="backlight_timeout_1s">1 δευτ</string>
     <string name="backlight_timeout_3s">3 δευτ</string>
     <string name="backlight_timeout_default">5 δευτ (προεπιλογή)</string>
     <string name="backlight_timeout_on">Πάντα ενργό</string>
@@ -835,7 +836,7 @@
     <string name="sb_battery_bar_animate_summary">Τα γραφικά φόρτισης, μπορεί να μην εμφανίζονται με καλή ανάλυση. Ενεργοποιήστε το εάν θέλετε και δοκιμάστε.</string>
     <string name="sb_battery_bar_hide">Απόκρυψη</string>
     <string name="sb_battery_bar_statusbar">Στατική μπάρα</string>
-    <string name="sb_battery_bar_topnav">Στην κοπρυφή της στατικής μπάρας</string>
+    <string name="sb_battery_bar_topnav">Στην κορυφή της στατικής μπάρας</string>
     <string name="sb_battery_bar_bottomnav">Κάτω από την στατική μπάρα</string>
     <string name="sb_battery_bar_reg">Κανονική</string>
     <string name="sb_battery_bar_center">Κέντρο-καθρεπτισμός</string>
