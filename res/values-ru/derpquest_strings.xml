@@ -692,6 +692,8 @@
     <string name="status_bar_show_ticker_title">Тикер (бета)</string>
     <string name="status_bar_show_ticker_summary">Настройка предварительного просмотра уведомлений в строке состояния</string>
     <string name="ticker_animation_mode_title">Анимация тикера</string>
+    <string name="status_bar_ticker_music_title">Тикер музыки</string>
+    <string name="status_bar_ticker_music_summary">Показывать тикер при включении нового трека</string>
     <string name="ticker_animation_mode_alpha_fade">Затухание</string>
     <string name="ticker_animation_mode_scroll">Прокрутка</string>
     <string name="ticker_tick_duration_title">Длительность тикера</string>
