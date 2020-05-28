@@ -495,6 +495,8 @@
     <string name="status_bar_battery_style_title">Στυλ μπαταρίας</string>
     <string name="status_bar_battery_text_charging_summary">Εμφάνιση πάντα του ποσοστού κατά την φόρτιση</string>
     <string name="status_bar_battery_text_charging_title">Ποσοστό μπαταρίας κατά τη φόρτιση</string>
+    <string name="status_bar_battery_charging_bolt_title">Εμφάνιση συμβόλου φόρτισης</string>
+    <string name="status_bar_battery_charging_bolt_summary">Εμφανίζει ένα \u26A1\uFE0E σύμβολο δίπλα στην μπαταρία, κατά τη φόρτιση</string>
     <string name="status_bar_carrier_color">Χρώμα τίτλου παρόχου</string>
     <string name="status_bar_carrier_font_style_title">Φόντο τίτλου παρόχου</string>
     <string name="status_bar_carrier_size">Μέγεθος τίτλου παρόχου</string>
@@ -837,5 +839,18 @@
     <string name="sb_battery_bar_gradient_color_summary">Χρησιμοποιήστε το χρώμα διαβάθμισης ως κλίμακα, για το επίπεδο της μπαταρίας</string>
     <string name="sb_battery_bar_high_color">Χρώμα υψηλού επιπέδου"</string>
     <string name="sb_battery_bar_low_color">Χρώμα χαμηλού επιπέδου"</string>
+     
+    <!-- Selinux Switch -->
+    <string name="selinux_category">SELinux</string>
+    <string name="selinux_explanation_summary">Το SELinux είναι ένα πακέτο ρυθμίσεων, αλλαγών και εργαλείων του kernel. Η αλλαγή αυτών των ρυθμίσεων, μπορεί να προκαλέσει ανεπιθύμητες λειτουργίες στην συσκευή σας.Χρησιμοποιήστε το με δική σας ευθύνη. (Χρειάζεται να έχετε κάνει root την συσκευή σας, για να λειτουργήσει)</string>
+    <string name="selinux_mode_title">Τύπος SELinux</string>
+    <string name="selinux_permissive_summary">Επιτρεπτικό</string>
+    <string name="selinux_enforcing_summary">Επιβολή</string>
+    <string name="selinux_persistence_title">Διατήρηση μεταξύ των επανεκκινήσεων</string>
+    <string name="selinux_persistence_summary">Επαναφορά του παραπάνω τύπου sepolicy σε κάθε επανεκκίνηση</string>
+    <string name="selinux_permissive_toast_title">Το SELinux ορίσθηκε σε επιτρεπτικό!</string>
+    <string name="selinux_enforcing_toast_title">Το SELinux ορίσθηκε σε επιβολή!</string>
+    <string name="selinux_unrooted_summary">Δεν ήταν δυνατή η ανίχνευση\ root. Πρέπει να έχετε κάνει κάνει τη συσκευή σας root, για να χρησιμοποιήσετε αυτούς τους διακόπτες</string>
+    <string name="cannot_get_su">Η ενέργεια - αλλάγη απέτυχε, γιατί η συσκευή σας δεν είναι root και δεν έχετε δικαιώματα υπερχρήστη σε αυτή</string>
 
 </resources>
