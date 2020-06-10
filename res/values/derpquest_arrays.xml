@@ -707,7 +707,9 @@
     <string-array name="flashlight_on_call_entries">
         <item>@string/flashlight_on_call_disabled</item>
         <item>@string/flashlight_on_call_ringer</item>
+        <item>@string/flashlight_on_call_no_ringer</item>
         <item>@string/flashlight_on_call_silent</item>
+        <item>@string/flashlight_on_call_silent_dnd</item>
         <item>@string/flashlight_on_call_always</item>
     </string-array>
 
@@ -716,6 +718,8 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
+        <item>4</item>
+        <item>5</item>
     </string-array>
 
 </resources>
