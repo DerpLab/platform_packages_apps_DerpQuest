@@ -872,4 +872,12 @@
     <string name="selinux_enforcing_toast_title">SELinux установлен на Enforcing (принудительный)!</string>
     <string name="selinux_unrooted_summary">Не удалось обнаружить root-доступ. Для использования этих переключателей необходим root</string>
     <string name="cannot_get_su">Не удалось выполнить из-за отсутствия доступа суперпользователя</string>
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">Мигание фонарика при вызове</string>
+    <string name="flashlight_on_call_disabled">Отключено</string>
+    <string name="flashlight_on_call_ringer">При включенном звуке</string>
+    <string name="flashlight_on_call_no_ringer">В беззвучном режиме</string>
+    <string name="flashlight_on_call_silent">В беззвучном режиме и без вибрации</string>
+    <string name="flashlight_on_call_silent_dnd">В беззвучном режиме и без вибрации, но соблюдая режим Не беспокоить</string>
+    <string name="flashlight_on_call_always">Всегда</string>
 </resources>
