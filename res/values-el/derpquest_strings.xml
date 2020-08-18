@@ -1024,6 +1024,6 @@
     <string name="volume_panel_aosp">AOSP</string>
     <string name="volume_panel_compat">Συμπαγές</string>
     <string name="volume_panel_oreo">Oreo</string>
-    <string name="volume_panel_tiled">Σε πλακίδια</string
+    <string name="volume_panel_tiled">Σε πλακίδια</string>
 
 </resources>
