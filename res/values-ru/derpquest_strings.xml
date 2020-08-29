@@ -57,7 +57,7 @@
     <string name="shown">Показано</string>
     <string name="hidden">Скрыто</string>
     <string name="intensity">Интенсивность</string>
-    <string name="and">и</string>
+    <string name="and"> и </string>
     <!-- General error strings -->
     <string name="translation_error">Ошибка перевода</string>
     <!-- Color Picker -->
